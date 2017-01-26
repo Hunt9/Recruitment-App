@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.recruiment.StudentPostFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/STDNAME"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Your Name"
+            android:textAlignment="center"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/STDDEPT"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Your Dept. Name"
+            android:textAlignment="center"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/STDROLLNO"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Your Roll Number"
+            android:textAlignment="center"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/STDCGPA"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Your CGPA"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:inputType="number"
+            />
+
+        <EditText
+            android:id="@+id/STDAGE"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Your Age"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/STDEMAIL"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Your Email"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/POST"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Post"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

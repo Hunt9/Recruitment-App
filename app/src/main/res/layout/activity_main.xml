@@ -13,5 +13,41 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Welcome To Recruitment System"
+        android:textSize="50sp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/ADMIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login as admin"
+        android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/COMPANY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login as company"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/STUDENT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login as student"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+
 </RelativeLayout>
